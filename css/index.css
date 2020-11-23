@@ -141,14 +141,15 @@
     }
 
     .footer{
-        position: relative;
+        position: fixed;
         bottom: 20px;
         left: 1px;
         right: 1px;
-        /* height: 3rem; */
+        height: 3rem;
     }
     
     .footer-text{
+        /* margin-top: auto; */
         font-size: 1rem;
     }
       
