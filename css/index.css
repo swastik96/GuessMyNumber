@@ -141,7 +141,7 @@
     }
 
     .footer{
-        position: absolute;
+        position: relative;
         bottom: 20px;
         left: 1px;
         right: 1px;
