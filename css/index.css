@@ -96,6 +96,7 @@
     bottom: 50px;
     right: 10px;
     left:10px;
+    padding: 5px;
     background-color: aliceblue;
     color: black;
     box-shadow: 2px 4px 4px red, -2px -4px 4px red;
@@ -141,10 +142,13 @@
     }
 
     .footer{
-        position: fixed;
+        /* position: fixed;
         bottom: 20px;
         left: 1px;
-        right: 1px;
+        right: 1px; */
+        padding: 5px;
+        position: static;
+        margin-top: 30px;
         height: 3rem;
     }
     
