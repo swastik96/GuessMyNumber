@@ -40,7 +40,7 @@
     justify-content: center;
 }
 
-.given-num{
+.secret-number{
     color: red;
     font-size: 3rem;
     margin: auto;
@@ -63,7 +63,7 @@
 .input-box{
     height: 5rem;
     width: 9rem;
-    font-size: 3rem;
+    font-size: 2.3rem;
 }
 
 .check{
@@ -92,11 +92,14 @@
 }
 
 .footer{
-    position: absolute;
+    /* position: absolute;
     bottom: 50px;
     right: 10px;
-    left:10px;
-    padding: 5px;
+    left:10px; */
+    position: static;
+    margin-top: 30px;
+    height: 4rem;
+    padding: 2px;
     background-color: aliceblue;
     color: black;
     box-shadow: 2px 4px 4px red, -2px -4px 4px red;
@@ -109,7 +112,18 @@
     font-weight: 700;
 }
 
-
+.animation-play-again{
+    animation-name: blink-playagain;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+}
+@keyframes blink-playagain{
+    25%{background-color: yellow;}
+    50%{background-color: yellowgreen;}
+    75%{background-color: violet;}
+    100%{background-color: blue;}
+}
 
 /* mobile device */
 @media screen and (min-width:320px) and (max-width:480px){
