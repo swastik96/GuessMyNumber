@@ -15,7 +15,7 @@ checkButton.addEventListener("click",()=>{
     if(inputNumber === 0){
         alert("⛔️ No number!");
     }
-    else if(inputNumber > 20){
+    else if(inputNumber > 20 || inputNumber < 0){
         alert("Very Bad👈🏻👊🏻👊🏻\nAlready you know You have to guess in between 1 and 20\nMINUS 5points");
         score = score-5;
         if(score <=0){
